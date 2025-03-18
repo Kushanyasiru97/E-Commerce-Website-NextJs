@@ -1,4 +1,4 @@
-@tailwind base; 
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -78,7 +78,7 @@ body {
   }
   .highlight-link a,
   a.highlight-link {
-    @apply text-sky-700 hover:text-orange-700 hover:underline;
+    @apply text-sky-700  hover:text-orange-700 hover:underline;
   }
   .header-button {
     @apply cursor-pointer p-1 border border-transparent hover:border-white rounded-[2px];
