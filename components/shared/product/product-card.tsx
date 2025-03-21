@@ -1,14 +1,12 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+import { IProduct } from "@/lib/db/models/product.model"
+import Link from "next/link"
+import ImageHover from "./image-hover"
+import Image from "next/image"
+import { formatNumber } from "@/lib/utils"
+import Rating from "./rating"
+import ProductPrice from "./product-price"
+import { Card, CardContent, CardHeader } from "@/components/ui/card"
 
-import { Card, CardContent, CardHeader } from '@/components/ui/card'
-import { IProduct } from '@/lib/db/models/product.model'
-
-import Rating from './rating'
-import { formatNumber } from '@/lib/utils'
-import ProductPrice from './product-price'
-import ImageHover from './image-hover'
 
 const ProductCard = ({
   product,
